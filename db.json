@@ -1,0 +1,131 @@
+{
+  "branch": [
+    {
+      "id": 2,
+      "branchName": "OMRInfo",
+      "location": "siruseri",
+      "sector": "bankings"
+    },
+    {
+      "id": 3,
+      "branchName": "TambaramInfo",
+      "location": "Tambaramvf",
+      "sector": "ITi"
+    },
+    {
+      "id": 5,
+      "branchName": "OMRInfo",
+      "location": "siruseri",
+      "sector": "banking"
+    },
+    {
+      "branchName": "arun",
+      "location": "america",
+      "sector": "pirates",
+      "id": 7
+    },
+    {
+      "branchName": "rajkumar s",
+      "location": "chennai",
+      "sector": "IT",
+      "id": 9
+    },
+    {
+      "branchName": "Delhi",
+      "location": "Dilli",
+      "sector": "It",
+      "id": 10
+    },
+    {
+      "branchName": "fgretre",
+      "location": "tret",
+      "sector": "trt",
+      "pass": "",
+      "id": 11
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Sakthivel R",
+      "mobile": "8870438087",
+      "email": "sakthi@gmail.com",
+      "address": "Avadii",
+      "pass": "sakthi@123"
+    },
+    {
+      "id": 2,
+      "name": "RajKumar",
+      "mobile": "886576597",
+      "email": "raj@gmail.com",
+      "address": "chengalpat",
+      "pass": "raj@123"
+    },
+    {
+      "id": 3,
+      "name": "Yeshwanth",
+      "mobile": "8805747557",
+      "email": "yesh@gmail.com",
+      "address": "poonamlle",
+      "pass": "yesh@123"
+    },
+    {
+      "name": "Mani",
+      "mobile": "909087909",
+      "email": "jhonrajkumar333@gmail.com",
+      "address": "thanjavur",
+      "id": 4,
+      "pass": "mani@123"
+    },
+    {
+      "name": "admin",
+      "pass": "admin@123"
+    },
+    {
+      "name": "Kumar",
+      "mobile": "909087909",
+      "email": "Sa@123gmail.com",
+      "address": "1234",
+      "pass": "",
+      "id": 5
+    },
+    {
+      "name": "Kumar K",
+      "mobile": "909087909",
+      "email": "jhonrajkumar@gmail.com",
+      "address": "Avadii",
+      "pass": "12345",
+      "id": 6
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "pname": "e-commerse",
+      "cname": "TVS",
+      "duration": "6 months",
+      "status": "ongoing"
+    },
+    {
+      "id": 2,
+      "pname": "e-commerse",
+      "cname": "TVS",
+      "duration": "6 months",
+      "status": "ongoing"
+    },
+    {
+      "id": 3,
+      "pname": "e-commerse",
+      "cname": "TVS",
+      "duration": "6 months",
+      "status": "ongoing"
+    },
+    {
+      "id": 4,
+      "pname": "e-commerse",
+      "cname": "TVS",
+      "duration": "6 months",
+      "status": "ongoing"
+    }
+  ]
+}

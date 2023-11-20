@@ -1,0 +1,172 @@
+  body{
+  margin:0;
+  padding:0;
+  background-color: #1d2634;
+  color:#9e9ea4;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+}
+.icon_header {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+.icon, .icon_header {
+  margin-right: 5px;
+}
+
+.close_icon {
+  color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2rf 3rf;
+  grid-template-areas: 'sidebar header header header'
+  'sidebar main main main';
+  height:100vh
+} 
+
+/* Header */
+ /* .header{
+  grid-area:header;
+ 
+  height:60px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 6px 7px -3px rgba(0,0, 0, 0.35);
+}  */
+
+/* .menu-icon{
+  display: none;
+}  */
+
+/* Header.css */
+
+.header {
+    width: 100%; /* Ensure the header covers the full width */
+  background-color: #333; /* Add your preferred background color */
+  color: white; /* Set text color */
+  padding: 10px; /* Add padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+/* Add this to your stylesheet */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding as needed */
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 25px;
+  margin-right: 10px; /* Add margin as needed for spacing between icon and text */
+}
+
+
+
+
+.but{
+ color: aqua;
+}
+
+/* Sidebar */
+
+#sidebar{
+  grid-area: sidebar;
+  height: 100%;
+  background-color: #969dac;
+  overflow-y: auto;
+  transition: all 0.5s;
+  
+}
+
+.sidebar-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 0px 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-title > span{
+  display:none;
+}
+
+.sidebar-brand{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-list{
+  padding: 0;
+  list-style-type: none;
+}
+
+
+.sidebar-list-item{
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.sidebar-list-item:hover{
+  background-color: rgba(102, 68, 68, 0.2);
+  cursor: pointer;
+}
+
+.sidebar-responsive{
+  display: inline !important;
+  position: absolute;
+  z-index:12 !important
+}
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-container {
+  flex-basis: 20%;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+}
+
+.body-container {
+  flex: 1;
+  padding: 20px;
+}
+
+
+/* Main */
+
+/* .main-container{
+  margin-top: -355px;
+}  */
